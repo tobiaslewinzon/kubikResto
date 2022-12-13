@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C841C031D668818F7B2D95 /* Pods_KubikRestoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C4BA0C7DB9DB20B204FB01 /* Pods_KubikRestoTests.framework */; };
+		41151257293EEACB00DCA6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41151256293EEACB00DCA6DF /* AppDelegate.swift */; };
+		41151259293EEACB00DCA6DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41151258293EEACB00DCA6DF /* SceneDelegate.swift */; };
+		4115125B293EEACB00DCA6DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115125A293EEACB00DCA6DF /* MainViewController.swift */; };
+		41151261293EEACB00DCA6DF /* KubikResto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4115125F293EEACB00DCA6DF /* KubikResto.xcdatamodeld */; };
+		41151263293EEACE00DCA6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41151262293EEACE00DCA6DF /* Assets.xcassets */; };
+		4129DDA52942176300459BD3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDA42942176300459BD3 /* MainViewModel.swift */; };
+		4129DDA82942197A00459BD3 /* UIVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDA72942197A00459BD3 /* UIVIewExtension.swift */; };
+		4129DDAB29422F3E00459BD3 /* RestaurantsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDAA29422F3E00459BD3 /* RestaurantsService.swift */; };
+		4129DDB229429E2000459BD3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDB129429E2000459BD3 /* Restaurant.swift */; };
+		4129DDB42946638900459BD3 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDB32946638900459BD3 /* RestaurantCell.swift */; };
+		4129DDB82946C85F00459BD3 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129DDB72946C85F00459BD3 /* RatingView.swift */; };
+		4157C93D2947B21900570506 /* RestaurantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C93C2947B21900570506 /* RestaurantManager.swift */; };
+		4157C93F2947BCA300570506 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C93E2947BCA300570506 /* CoreDataManager.swift */; };
+		4157C9442948260E00570506 /* RestaurantCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C9432948260E00570506 /* RestaurantCellViewModel.swift */; };
+		4157C9462948BD4C00570506 /* ImagesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157C9452948BD4C00570506 /* ImagesService.swift */; };
+		41F36A2C2948EFD100BB9792 /* RestaurantServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F36A2A2948EFD100BB9792 /* RestaurantServiceTests.swift */; };
+		41F36A2F2948F00600BB9792 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F36A2E2948F00600BB9792 /* restaurants.json */; };
+		41F36A322948F10B00BB9792 /* RestaurantManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F36A312948F10B00BB9792 /* RestaurantManagerTests.swift */; };
+		41F36A342948F47100BB9792 /* restaurantImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41F36A332948F47100BB9792 /* restaurantImage.jpeg */; };
+		41F36A362948F82900BB9792 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F36A352948F82900BB9792 /* CoreDataManagerTests.swift */; };
+		A783A4334ACFCC624F309576 /* Pods_KubikResto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1A6F8F9F59BE687899AEF0 /* Pods_KubikResto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F36A242948EF9200BB9792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4115124B293EEACB00DCA6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41151252293EEACB00DCA6DF;
+			remoteInfo = KubikResto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26887D48B8040BBC771A55E6 /* Pods-KubikRestoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KubikRestoTests.debug.xcconfig"; path = "Target Support Files/Pods-KubikRestoTests/Pods-KubikRestoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29FC00FBABB9A70BF27FB331 /* Pods-KubikResto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KubikResto.release.xcconfig"; path = "Target Support Files/Pods-KubikResto/Pods-KubikResto.release.xcconfig"; sourceTree = "<group>"; };
+		41151253293EEACB00DCA6DF /* KubikResto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KubikResto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41151256293EEACB00DCA6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41151258293EEACB00DCA6DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4115125A293EEACB00DCA6DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41151260293EEACB00DCA6DF /* KubikResto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KubikResto.xcdatamodel; sourceTree = "<group>"; };
+		41151262293EEACE00DCA6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41151267293EEACE00DCA6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4129DDA42942176300459BD3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4129DDA72942197A00459BD3 /* UIVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewExtension.swift; sourceTree = "<group>"; };
+		4129DDAA29422F3E00459BD3 /* RestaurantsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsService.swift; sourceTree = "<group>"; };
+		4129DDB129429E2000459BD3 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		4129DDB32946638900459BD3 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		4129DDB72946C85F00459BD3 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		4157C93C2947B21900570506 /* RestaurantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantManager.swift; sourceTree = "<group>"; };
+		4157C93E2947BCA300570506 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4157C9432948260E00570506 /* RestaurantCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCellViewModel.swift; sourceTree = "<group>"; };
+		4157C9452948BD4C00570506 /* ImagesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesService.swift; sourceTree = "<group>"; };
+		41F36A202948EF9200BB9792 /* KubikRestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KubikRestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F36A2A2948EFD100BB9792 /* RestaurantServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantServiceTests.swift; sourceTree = "<group>"; };
+		41F36A2E2948F00600BB9792 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		41F36A302948F01D00BB9792 /* KubikRestoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KubikRestoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		41F36A312948F10B00BB9792 /* RestaurantManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantManagerTests.swift; sourceTree = "<group>"; };
+		41F36A332948F47100BB9792 /* restaurantImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = restaurantImage.jpeg; sourceTree = "<group>"; };
+		41F36A352948F82900BB9792 /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
+		43738034B2018588CFB57B51 /* Pods-KubikRestoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KubikRestoTests.release.xcconfig"; path = "Target Support Files/Pods-KubikRestoTests/Pods-KubikRestoTests.release.xcconfig"; sourceTree = "<group>"; };
+		59C4BA0C7DB9DB20B204FB01 /* Pods_KubikRestoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KubikRestoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF4832CF9713AA84F2A51A6 /* Pods-KubikResto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KubikResto.debug.xcconfig"; path = "Target Support Files/Pods-KubikResto/Pods-KubikResto.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1A6F8F9F59BE687899AEF0 /* Pods_KubikResto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KubikResto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41151250293EEACB00DCA6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A783A4334ACFCC624F309576 /* Pods_KubikResto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F36A1D2948EF9200BB9792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C841C031D668818F7B2D95 /* Pods_KubikRestoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4115124A293EEACB00DCA6DF = {
+			isa = PBXGroup;
+			children = (
+				41151255293EEACB00DCA6DF /* KubikResto */,
+				41F36A212948EF9200BB9792 /* KubikRestoTests */,
+				41151254293EEACB00DCA6DF /* Products */,
+				A3F46D2BC018FB7806EC7E48 /* Pods */,
+				45A25FDFCF514B0D86C1A95F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41151254293EEACB00DCA6DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41151253293EEACB00DCA6DF /* KubikResto.app */,
+				41F36A202948EF9200BB9792 /* KubikRestoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41151255293EEACB00DCA6DF /* KubikResto */ = {
+			isa = PBXGroup;
+			children = (
+				4157C93B2947B20A00570506 /* Managers */,
+				4129DDB029429DA100459BD3 /* Model */,
+				4129DDAD2942910E00459BD3 /* Views */,
+				4129DDAC294290F500459BD3 /* ViewControllers */,
+				4129DDA929422F2D00459BD3 /* Service */,
+				4129DDA62942195C00459BD3 /* Extensions */,
+				41151256293EEACB00DCA6DF /* AppDelegate.swift */,
+				41151258293EEACB00DCA6DF /* SceneDelegate.swift */,
+				41151262293EEACE00DCA6DF /* Assets.xcassets */,
+				41151267293EEACE00DCA6DF /* Info.plist */,
+				4115125F293EEACB00DCA6DF /* KubikResto.xcdatamodeld */,
+			);
+			path = KubikResto;
+			sourceTree = "<group>";
+		};
+		4129DDA32942174300459BD3 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4115125A293EEACB00DCA6DF /* MainViewController.swift */,
+				4129DDA42942176300459BD3 /* MainViewModel.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		4129DDA62942195C00459BD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4129DDA72942197A00459BD3 /* UIVIewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4129DDA929422F2D00459BD3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4129DDAA29422F3E00459BD3 /* RestaurantsService.swift */,
+				4157C9452948BD4C00570506 /* ImagesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4129DDAC294290F500459BD3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4129DDA32942174300459BD3 /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4129DDAD2942910E00459BD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4157C942294825FC00570506 /* RestaurantCell */,
+				4129DDB72946C85F00459BD3 /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4129DDB029429DA100459BD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4129DDB129429E2000459BD3 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4157C93B2947B20A00570506 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4157C93C2947B21900570506 /* RestaurantManager.swift */,
+				4157C93E2947BCA300570506 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4157C942294825FC00570506 /* RestaurantCell */ = {
+			isa = PBXGroup;
+			children = (
+				4129DDB32946638900459BD3 /* RestaurantCell.swift */,
+				4157C9432948260E00570506 /* RestaurantCellViewModel.swift */,
+			);
+			path = RestaurantCell;
+			sourceTree = "<group>";
+		};
+		41F36A212948EF9200BB9792 /* KubikRestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F36A302948F01D00BB9792 /* KubikRestoTests-Bridging-Header.h */,
+				41F36A372949172400BB9792 /* StubbedResponses */,
+				41F36A2A2948EFD100BB9792 /* RestaurantServiceTests.swift */,
+				41F36A312948F10B00BB9792 /* RestaurantManagerTests.swift */,
+				41F36A352948F82900BB9792 /* CoreDataManagerTests.swift */,
+			);
+			path = KubikRestoTests;
+			sourceTree = "<group>";
+		};
+		41F36A372949172400BB9792 /* StubbedResponses */ = {
+			isa = PBXGroup;
+			children = (
+				41F36A332948F47100BB9792 /* restaurantImage.jpeg */,
+				41F36A2E2948F00600BB9792 /* restaurants.json */,
+			);
+			path = StubbedResponses;
+			sourceTree = "<group>";
+		};
+		45A25FDFCF514B0D86C1A95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A6F8F9F59BE687899AEF0 /* Pods_KubikResto.framework */,
+				59C4BA0C7DB9DB20B204FB01 /* Pods_KubikRestoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F46D2BC018FB7806EC7E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF4832CF9713AA84F2A51A6 /* Pods-KubikResto.debug.xcconfig */,
+				29FC00FBABB9A70BF27FB331 /* Pods-KubikResto.release.xcconfig */,
+				26887D48B8040BBC771A55E6 /* Pods-KubikRestoTests.debug.xcconfig */,
+				43738034B2018588CFB57B51 /* Pods-KubikRestoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41151252293EEACB00DCA6DF /* KubikResto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41151280293EEACE00DCA6DF /* Build configuration list for PBXNativeTarget "KubikResto" */;
+			buildPhases = (
+				80A3159D81B493B43B4583FA /* [CP] Check Pods Manifest.lock */,
+				4115124F293EEACB00DCA6DF /* Sources */,
+				41151250293EEACB00DCA6DF /* Frameworks */,
+				41151251293EEACB00DCA6DF /* Resources */,
+				198A739332B14B33BEF366D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KubikResto;
+			productName = KubikResto;
+			productReference = 41151253293EEACB00DCA6DF /* KubikResto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F36A1F2948EF9200BB9792 /* KubikRestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F36A262948EF9200BB9792 /* Build configuration list for PBXNativeTarget "KubikRestoTests" */;
+			buildPhases = (
+				8E18B8F3F9A5E073DBF02743 /* [CP] Check Pods Manifest.lock */,
+				41F36A1C2948EF9200BB9792 /* Sources */,
+				41F36A1D2948EF9200BB9792 /* Frameworks */,
+				41F36A1E2948EF9200BB9792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F36A252948EF9200BB9792 /* PBXTargetDependency */,
+			);
+			name = KubikRestoTests;
+			productName = KubikRestoTests;
+			productReference = 41F36A202948EF9200BB9792 /* KubikRestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4115124B293EEACB00DCA6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					41151252293EEACB00DCA6DF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					41F36A1F2948EF9200BB9792 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+						TestTargetID = 41151252293EEACB00DCA6DF;
+					};
+				};
+			};
+			buildConfigurationList = 4115124E293EEACB00DCA6DF /* Build configuration list for PBXProject "KubikResto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4115124A293EEACB00DCA6DF;
+			productRefGroup = 41151254293EEACB00DCA6DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41151252293EEACB00DCA6DF /* KubikResto */,
+				41F36A1F2948EF9200BB9792 /* KubikRestoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41151251293EEACB00DCA6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41151263293EEACE00DCA6DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F36A1E2948EF9200BB9792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F36A342948F47100BB9792 /* restaurantImage.jpeg in Resources */,
+				41F36A2F2948F00600BB9792 /* restaurants.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198A739332B14B33BEF366D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KubikResto/Pods-KubikResto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KubikResto/Pods-KubikResto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KubikResto/Pods-KubikResto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A3159D81B493B43B4583FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KubikResto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E18B8F3F9A5E073DBF02743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KubikRestoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4115124F293EEACB00DCA6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129DDB82946C85F00459BD3 /* RatingView.swift in Sources */,
+				4157C9442948260E00570506 /* RestaurantCellViewModel.swift in Sources */,
+				4129DDB42946638900459BD3 /* RestaurantCell.swift in Sources */,
+				4129DDA52942176300459BD3 /* MainViewModel.swift in Sources */,
+				4115125B293EEACB00DCA6DF /* MainViewController.swift in Sources */,
+				4129DDA82942197A00459BD3 /* UIVIewExtension.swift in Sources */,
+				4129DDB229429E2000459BD3 /* Restaurant.swift in Sources */,
+				4157C93F2947BCA300570506 /* CoreDataManager.swift in Sources */,
+				41151257293EEACB00DCA6DF /* AppDelegate.swift in Sources */,
+				41151261293EEACB00DCA6DF /* KubikResto.xcdatamodeld in Sources */,
+				41151259293EEACB00DCA6DF /* SceneDelegate.swift in Sources */,
+				4157C9462948BD4C00570506 /* ImagesService.swift in Sources */,
+				4157C93D2947B21900570506 /* RestaurantManager.swift in Sources */,
+				4129DDAB29422F3E00459BD3 /* RestaurantsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F36A1C2948EF9200BB9792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F36A322948F10B00BB9792 /* RestaurantManagerTests.swift in Sources */,
+				41F36A362948F82900BB9792 /* CoreDataManagerTests.swift in Sources */,
+				41F36A2C2948EFD100BB9792 /* RestaurantServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F36A252948EF9200BB9792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41151252293EEACB00DCA6DF /* KubikResto */;
+			targetProxy = 41F36A242948EF9200BB9792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4115127E293EEACE00DCA6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4115127F293EEACE00DCA6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41151281293EEACE00DCA6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF4832CF9713AA84F2A51A6 /* Pods-KubikResto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PX67L97P4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KubikResto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.KubikResto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41151282293EEACE00DCA6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FC00FBABB9A70BF27FB331 /* Pods-KubikResto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PX67L97P4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KubikResto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.KubikResto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41F36A272948EF9200BB9792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26887D48B8040BBC771A55E6 /* Pods-KubikRestoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PX67L97P4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.KubikRestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "KubikRestoTests/KubikRestoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KubikResto.app/KubikResto";
+			};
+			name = Debug;
+		};
+		41F36A282948EF9200BB9792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43738034B2018588CFB57B51 /* Pods-KubikRestoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PX67L97P4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.KubikRestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "KubikRestoTests/KubikRestoTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KubikResto.app/KubikResto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4115124E293EEACB00DCA6DF /* Build configuration list for PBXProject "KubikResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4115127E293EEACE00DCA6DF /* Debug */,
+				4115127F293EEACE00DCA6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41151280293EEACE00DCA6DF /* Build configuration list for PBXNativeTarget "KubikResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41151281293EEACE00DCA6DF /* Debug */,
+				41151282293EEACE00DCA6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F36A262948EF9200BB9792 /* Build configuration list for PBXNativeTarget "KubikRestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F36A272948EF9200BB9792 /* Debug */,
+				41F36A282948EF9200BB9792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4115125F293EEACB00DCA6DF /* KubikResto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41151260293EEACB00DCA6DF /* KubikResto.xcdatamodel */,
+			);
+			currentVersion = 41151260293EEACB00DCA6DF /* KubikResto.xcdatamodel */;
+			path = KubikResto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4115124B293EEACB00DCA6DF /* Project object */;
+}

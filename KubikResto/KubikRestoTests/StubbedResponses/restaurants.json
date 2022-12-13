@@ -1,0 +1,371 @@
+{
+	"data": [{
+		"name": "Curry Garden",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht123456",
+		"servesCuisine": "Indian",
+		"priceRange": 25,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "89 Rue de Bagnolet",
+			"postalCode": "75020",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.5,
+				"reviewCount": 275
+			},
+			"tripadvisor": {
+				"ratingValue": 4.5,
+				"reviewCount": 21
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/b1d8f006-2477-4715-b937-2c34d616dccb/68e364a6-e903-4fb1-9e1e-d91d97457266.jpg"
+		},
+		"bestOffer": {
+			"name": "40% off the 'a la carte' menu",
+			"label": "-40%"
+		}
+	}, {
+		"name": "Moom Mam",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht123457",
+		"servesCuisine": "Thai",
+		"priceRange": 45,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "19 Rue de Mogador",
+			"postalCode": "75009",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.5,
+				"reviewCount": 3312
+			},
+			"tripadvisor": {
+				"ratingValue": 4.5,
+				"reviewCount": 167
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/3da6a3db-1080-4e1e-8438-1e82ca838100/ff083b11-2a3a-4b4c-8e92-21ef2afe712a.jpg"
+		},
+		"bestOffer": {
+			"name": "20% off the 'a la carte' menu",
+			"label": "-20%"
+		}
+	}, {
+		"name": "Les 3 Bornés",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht123458",
+		"servesCuisine": "French",
+		"priceRange": 40,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "71 Rue Jean-Pierre Timbaud",
+			"postalCode": "75011",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.5,
+				"reviewCount": 587
+			},
+			"tripadvisor": {
+				"ratingValue": 4.5,
+				"reviewCount": 51
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/939261d4-4d51-4d7f-913b-d5f710df6a85/b3977414-098a-4c08-855a-64ae37da9173.jpg"
+		},
+		"bestOffer": {
+			"name": "20% off the 'a la carte' menu",
+			"label": "-20%"
+		}
+	}, {
+		"name": "Swadee",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht12319",
+		"servesCuisine": "Thai",
+		"priceRange": 32,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "20 Rue du Débarcadère",
+			"postalCode": "75017",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.2,
+				"reviewCount": 808
+			},
+			"tripadvisor": {
+				"ratingValue": 4,
+				"reviewCount": 135
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/35c4e18a-57ac-4c96-be95-2dab2d9a9e0d/9f06f90f-0cb7-4e91-9004-0be4953c404b.jpg"
+		},
+		"bestOffer": {
+			"name": "30% off the 'a la carte' menu",
+			"label": "-30%"
+		}
+	}, {
+		"name": "Meating Corner",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht123428",
+		"servesCuisine": "American",
+		"priceRange": 20,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "8 Rue des Lombards",
+			"postalCode": "75004",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.6,
+				"reviewCount": 2563
+			},
+			"tripadvisor": {
+				"ratingValue": 4.5,
+				"reviewCount": 317
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/082529a9-09c3-4472-87b7-9e03b8af9d14/f6f8e999-ab15-4460-a107-9aa003e3438c.jpg"
+		},
+		"bestOffer": {
+			"name": "30% off the 'a la carte' menu",
+			"label": "-30%"
+		}
+	}, {
+		"name": "Yasmin",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht233456",
+		"servesCuisine": "Indian",
+		"priceRange": 29,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "71-73, Passage Brady",
+			"postalCode": "75010",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.1,
+				"reviewCount": 2128
+			},
+			"tripadvisor": {
+				"ratingValue": 4,
+				"reviewCount": 296
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/4a166511-c354-4807-8517-4ec82472a383/bb7e583b-75eb-4584-a92b-b33f71d8b794.jpg"
+		},
+		"bestOffer": {
+			"name": "30% off the 'a la carte' menu",
+			"label": "-30%"
+		}
+	}, {
+		"name": "Visconti",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht973456",
+		"servesCuisine": "Italian",
+		"priceRange": 48,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "4, rue de l'Arcade",
+			"postalCode": "75008",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.3,
+				"reviewCount": 1955
+			},
+			"tripadvisor": {
+				"ratingValue": 4,
+				"reviewCount": 303
+			}
+		},
+		"bestOffer": {
+			"name": "20% off the 'a la carte' menu",
+			"label": "-20%"
+		}
+	}, {
+		"name": "Restaurant New Dehli",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht1345456",
+		"servesCuisine": "Indian",
+		"priceRange": 26,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "4, passage Brady",
+			"postalCode": "75010",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9,
+				"reviewCount": 1301
+			},
+			"tripadvisor": {
+				"ratingValue": 4,
+				"reviewCount": 76
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/30cccf55-6773-4c4f-af23-dce1b0f1e9f8/c882aee1-658e-4d0c-b9a4-37fa524baeb3.jpg"
+		},
+		"bestOffer": {
+			"name": "30% off the 'a la carte' menu",
+			"label": "-30%"
+		}
+	}, {
+		"name": "Le 27 Gourmand",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht123209",
+		"servesCuisine": "French",
+		"priceRange": 46,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "27 Boulevard des Batignolles",
+			"postalCode": "75008",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.6,
+				"reviewCount": 2154
+			},
+			"tripadvisor": {
+				"ratingValue": 4.5,
+				"reviewCount": 153
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/d0130506-6ff9-4974-a15d-f0c3a66d406b/2f8819d1-a53f-4ac6-8c4f-50b2e7965bfd.jpg"
+		},
+		"bestOffer": {
+			"name": "30% off the 'a la carte' menu",
+			"label": "-30%"
+		}
+	}, {
+		"name": "Le Beef - Steakhouse Viandes Maturées",
+		"uuid": "4eg4e2bn-1080-4e1e-8438-6t90ht1230936",
+		"servesCuisine": "French",
+		"priceRange": 41,
+		"currenciesAccepted": "EUR",
+		"address": {
+			"street": "33 Rue des Rosiers",
+			"postalCode": "75004",
+			"locality": "Paris",
+			"country": "France"
+		},
+		"aggregateRatings": {
+			"thefork": {
+				"ratingValue": 9.1,
+				"reviewCount": 716
+			},
+			"tripadvisor": {
+				"ratingValue": 5,
+				"reviewCount": 49
+			}
+		},
+		"mainPhoto": {
+			"source": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"612x344": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_612,h_344/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"480x270": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"240x135": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_240,h_135/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"664x374": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_664,h_374/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"1350x759": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_1350,h_759/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"160x120": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_160,h_120/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"80x60": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_80,h_60/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"92x92": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_92,h_92/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg",
+			"184x184": "https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_184,h_184/restaurant/0ed4c223-1c8c-42be-8744-7dc0317d2d4e/db21c30a-65bb-4291-a0fe-8093d6be871b.jpg"
+		},
+		"bestOffer": {
+			"name": "40% off the 'a la carte' menu",
+			"label": "-40%"
+		}
+	}]
+}

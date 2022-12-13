@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RestaurantFavorite" representedClassName="RestaurantFavorite" syncable="YES" codeGenerationType="class">
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RestaurantImage" representedClassName="RestaurantImage" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="RestaurantFavorite" positionX="-54" positionY="9" width="128" height="44"/>
+        <element name="RestaurantImage" positionX="-18" positionY="63" width="128" height="74"/>
+    </elements>
+</model>
